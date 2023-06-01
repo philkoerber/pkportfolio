@@ -30,7 +30,7 @@ function Home(props) {
                 offset={50}
                 >
                 <h1 className='text-3xl'>Hello! I am <p className="font-semibold text-[35px] font-instrument inline">Philipp Körber</p>, an aspiring frontend developer with background in organbuilding and culinary arts.</h1>
-                <p className='text-xl'>After completing my bachelor's degree in organbuilding, I set out to travel the world. Now based in Tokyo, I decided in September 2022 to start learning how to code with a focus on React. I'm excited to showcase my skills and projects through my React portfolio.</p>
+                <p className='text-xl'>After completing my bachelor's degree in organbuilding back in Germany, I set out to travel the world. Finally based in Tokyo, I decided in September 2022 to start learning how to code in my free time, with a focus on frontend. I'm excited to showcase my skills and projects through my React portfolio.</p>
                 
             </ParallaxDiv>
         

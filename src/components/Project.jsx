@@ -28,7 +28,10 @@ function Project(props) {
           className='rounded-full shadow-xl'
           src={content.file} alt="picture"
           type="video/mp4"
-          autoPlay  loop muted
+          autoPlay
+          playsInline
+          loop
+          muted
         >
           <source src={content.file} type="video/mp4" />
         </video>
@@ -51,7 +54,7 @@ function Project(props) {
         <div className='mb-2'>
           <p className='font-bold text-xl'>{content.content1}</p>
           <p className=''>{content.content2}</p></div>
-        <div className='flex flex-wrap gap-2 justify-end'>
+        <div className='flex flex-wrap gap-x-2 gap-y-0 justify-end'>
           {content.techs.map((tech, i) => {
             return (
               <div key={i}  className='text-delftblue w-fit'>#{tech}</div>)
