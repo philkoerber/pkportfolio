@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import pk from "./pics/pk.svg"
-import ParallaxDiv from './ParallaxDiv';
 
 const styles = "cursor-pointer py-10";
 
@@ -54,9 +53,9 @@ function NavBar(props) {
       </div>
       <motion.div
         className='absolute w-full h-full flex -z-10'
-        initial={{ scale: 0.9, opacity: 0 }}
+        initial={{ scale: 0.75, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        transition={{duration: 16}}
+        transition={{duration: 8}}
             >
                 
         <img className='mx-auto w-1/2 min-w-[300px] max-w-[700px] translate-x-[5%] opacity-10' src={pk} />

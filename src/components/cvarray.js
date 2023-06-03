@@ -17,7 +17,7 @@ const cvarray = [
         location: "London, England",
         jobs: [
             "coordinating staff depending on orders and work load",
-            "monitoring the team followin safety, sanitary and quality standards",
+            "monitoring the team following safety, sanitary and quality standards",
             "management of supplies, communicating with suppliers",
             "assisting head chef with designing the menu"
         ]

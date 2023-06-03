@@ -1,7 +1,7 @@
 import sixtysix from "./pics/sixtysix.mp4";
 import openingexplorer from "./pics/openingexplorer.mp4"
 import portfolio from "./pics/portfolio.mp4"
-
+import puredata from "./pics/puredata.mp4"
 
 
 const projectsArr = [
@@ -10,7 +10,7 @@ const projectsArr = [
         content1: "A web app for playing the german card game 'Sechsundsechzig'",
         content2: "In addition to handling game logic, this project provided me with an opportunity to explore the realm of framer-motion, sparking my passion for its possibilities.",
         github: "https://github.com/philkoerber/sixtysix",
-        home: "https://www.youtube.com/@swim8008",
+        home: "https://sixty-six.netlify.app/",
         techs: ["react", "framer-motion", "Chakra UI", "zustand"],
         file: sixtysix
     },
@@ -36,10 +36,10 @@ const projectsArr = [
         name: "Music",
         content1: "Most of my music is made by utilizing Pure Data, a visual programming language.",
         content2: "Pure Data became my introduction to programming, revealing a realm that required effort to unlock its full potential. However, the payoff was extraordinary: the ability to have complete control over sound and create unique designs.",
-        github: "",
+        github: "https://github.com/philkoerber/puredata-objects",
         home: "https://www.youtube.com/@swim8008",
         techs: ["pure-data", "reaper"],
-        file: sixtysix
+        file: puredata
 
     },
     
