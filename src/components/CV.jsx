@@ -9,10 +9,10 @@ function CV(props) {
     <div className='relative p-8'>
       <div className='text-center text-4xl font-instrument m-24'>
         RÉSUMÉ
-        <p className='font-urbanist text-xl'>...an overview where i have worked professionally</p>
+        <p className='font-urbanist text-xl'>...an overview where I have worked professionally</p>
             </div>
       <div className='h-fit w-full'>
-      {cvarray.map((job, index) => {
+      {cvarray.map((job) => {
         return (
           <ParallaxDiv
             offset={30}

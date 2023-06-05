@@ -35,7 +35,7 @@ const projectsArr = [
     {
         name: "Music",
         content1: "Most of my music is made by utilizing Pure Data, a visual programming language.",
-        content2: "Pure Data became my introduction to programming, revealing a realm that required effort to unlock its full potential. However, the payoff was extraordinary: the ability to have complete control over sound and create unique designs.",
+        content2: "With 15 years of experience, Pure Data has been my programming foundation, enabling me to exercise complete authority over sound and one-of-a-kind audio designs.",
         github: "https://github.com/philkoerber/puredata-objects",
         home: "https://www.youtube.com/@swim8008",
         techs: ["pure-data", "reaper"],
