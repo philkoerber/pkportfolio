@@ -1,6 +1,5 @@
 import { motion, animate, useMotionValue, useTransform } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import { interpolate } from "flubber";
 import paths from "./paths";
 
 const morphPaths = (progress) =>
