@@ -27,7 +27,7 @@ const projectsArr = [
         name: "Portfolio",
         content1: "The beautiful portfolio you are checking out now!",
         content2: "This portfolio is created to present myself and showcase my skills to others.",
-        github: "https://github.com/philkoerber/portfolio",
+        github: "https://github.com/philkoerber/pkportfolio",
         home: "/",
         techs: ["react", "framer-motion", "tailwind"],
         file: portfolio

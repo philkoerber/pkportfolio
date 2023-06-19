@@ -34,7 +34,9 @@ function App() {
       <div id='RÉSUMÉ'><CV /></div>
       <div id='CONTACT'><Contact /></div>
       
-      <Background/>
+        <Background color={"#00BBF9"} />
+        <Background color={"#008AB8"} />
+        
       
       
       
