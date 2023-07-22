@@ -2,12 +2,22 @@ import sixtysix from "./pics/sixtysix.mp4";
 import openingexplorer from "./pics/openingexplorer.mp4"
 import portfolio from "./pics/portfolio.mp4"
 import puredata from "./pics/puredata.mp4"
+import docrob from "./pics/docrob.mp4"
 
 
 const projectsArr = [
     {
+        name: "DOC.ROB",
+        content1: "A chatbot that knows the React docs.",
+        content2: "Utilizing FlowiseAI, this app connects to a custom LLM that is trained on the current documentation of ReactJS.",
+        github: "https://github.com/philkoerber/docrob",
+        home: "https://docrob.vercel.app/",
+        techs: ["nextJS", "FlowiseAI", "tailwind", "zustand", ],
+        file: docrob
+    },
+    {
         name: "Sixty-Six",
-        content1: "A web app for playing the german card game 'Sechsundsechzig'",
+        content1: "A web app for playing the german card game 'Sechsundsechzig'.",
         content2: "In addition to handling game logic, this project provided me with an opportunity to explore the realm of framer-motion, sparking my passion for its possibilities.",
         github: "https://github.com/philkoerber/sixtysix",
         home: "https://sixty-six.netlify.app/",
