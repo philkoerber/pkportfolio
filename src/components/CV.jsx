@@ -8,7 +8,7 @@ function CV(props) {
   return (
     <div className='relative p-8 mb-5'>
       <div className='text-center text-4xl font-instrument m-24'>
-        RÉSUMÉ
+        RESUME
         <p className='font-urbanist text-xl'>...an overview where I have worked professionally</p>
             </div>
       <div className='h-fit w-full'>

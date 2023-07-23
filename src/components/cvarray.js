@@ -28,7 +28,7 @@ const cvarray = [
         place: "Suto Hiroshi Organs",
         location: "Yokosuka, Japan",
         jobs: [
-            "helping the master craftsment with disassembling the organ",
+            "helping the master craftsmen with disassembling the organ",
             "restore and rebuild the old components",
         ]
     },
