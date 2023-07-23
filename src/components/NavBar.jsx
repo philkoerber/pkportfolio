@@ -37,7 +37,7 @@ function NavBar(props) {
           onClick={handleClick}
           className={styles}
         >
-          <motion.h1>RÉSUMÉ</motion.h1>
+          <motion.h1>RESUME</motion.h1>
         </motion.div>
         <motion.div
           {...motionAnimation}
