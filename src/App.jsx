@@ -31,7 +31,7 @@ function App() {
       <div id='NAVBAR'><NavBar setPage={(p) => {setPage(p)}} /></div>
       <div id='ABOUT ME'><Home/></div>
       <div id='PROJECTS'><Projects/></div>
-      <div id='RÉSUMÉ'><CV /></div>
+      <div id='RESUME'><CV /></div>
       <div id='CONTACT'><Contact /></div>
       
         <Background color={"#00BBF9"} />
