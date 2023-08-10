@@ -35,10 +35,7 @@ function Contact(props) {
   };
 
   const handleUpworkClick = () => {
-    window.open(
-      "https://www.upwork.com/freelancers/~016d72bdacfbd425bb",
-      "_blank"
-    );
+    window.open("https://www.upwork.com/workwith/philippk14", "_blank");
   };
 
   return (
