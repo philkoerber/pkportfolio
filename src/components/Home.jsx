@@ -24,7 +24,7 @@ function Home(props) {
         <h1 className="text-3xl">
           Hello! I am{" "}
           <p className="font-semibold text-[35px] font-instrument inline">
-            Philipp Koerber
+            Philipp Körber
           </p>
           , a web developer with background in organbuilding and culinary arts.
         </h1>
