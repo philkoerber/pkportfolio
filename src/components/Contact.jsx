@@ -5,7 +5,7 @@ import { GoMarkGithub, GoMail } from "react-icons/go";
 import { HiOutlinePhone } from "react-icons/hi";
 import { ImLocation } from "react-icons/im";
 import { IoLogoLinkedin } from "react-icons/io";
-import { SiUpwork } from "react-icons/si";
+import { SiUpwork, SiFiverr } from "react-icons/si";
 
 import line from "./pics/line.png";
 import pk from "./pics/pk.svg";
@@ -36,6 +36,13 @@ function Contact(props) {
 
   const handleUpworkClick = () => {
     window.open("https://www.upwork.com/workwith/philippk14", "_blank");
+  };
+
+  const handleFiverrClick = () => {
+    window.open(
+      "https://www.fiverr.com/philkoerber/create-custom-animated-websites",
+      "_blank"
+    );
   };
 
   return (
@@ -80,6 +87,13 @@ function Contact(props) {
           onClick={handleUpworkClick}>
           <SiUpwork className="text-4xl bottom-1" />
           @Philipp K.
+        </motion.div>
+        <motion.div
+          className={styles}
+          {...motionAnimation}
+          onClick={handleFiverrClick}>
+          <SiFiverr className="text-4xl bottom-1" />
+          @philkoerber
         </motion.div>
         <div className={styles} style={{ cursor: "default" }}>
           <HiOutlinePhone className="text-3xl" />
