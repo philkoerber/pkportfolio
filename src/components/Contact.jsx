@@ -81,20 +81,6 @@ function Contact(props) {
           <GoMarkGithub className="text-3xl" />
           @philkoerber
         </motion.div>
-        <motion.div
-          className={styles}
-          {...motionAnimation}
-          onClick={handleUpworkClick}>
-          <SiUpwork className="text-4xl bottom-1" />
-          @Philipp K.
-        </motion.div>
-        <motion.div
-          className={styles}
-          {...motionAnimation}
-          onClick={handleFiverrClick}>
-          <SiFiverr className="text-4xl bottom-1" />
-          @philkoerber
-        </motion.div>
         <div className={styles} style={{ cursor: "default" }}>
           <HiOutlinePhone className="text-3xl" />
           080 5625 4648

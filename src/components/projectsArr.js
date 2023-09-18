@@ -4,19 +4,9 @@ import portfolio from "./pics/portfolio.mp4";
 import puredata from "./pics/puredata.mp4";
 import docrob from "./pics/docrob.mp4";
 import dza from "./pics/dza.mp4";
-import lyraverse from "./pics/lyraverse.svg";
+import lyraverse from "./pics/lyraverse.mp4";
 
 const projectsArr = [
-  //   {
-  //     name: "LyraVerseAI",
-  //     content1: "A web app that lets you create, store and edit Lyrics and Poems",
-  //     content2:
-  //       "Utilizing different AI-APIs, this app provides interactive and fun ways to create some lyrics. Let the AI create your next line, or lean back and listen to your peotry. Everything is stored in a database, so access it from anywhere.",
-  //     github: "https://github.com/philkoerber/LyraVerseAI",
-  //     home: "https://lyraverse-ai.vercel.app/",
-  //     techs: ["nextJS", "FlowiseAI", "tailwind", "supabase"],
-  //     file: lyraverse,
-  //   },
   {
     name: "DOC.ROB",
     content1: "A chatbot that knows the React docs.",
@@ -39,13 +29,23 @@ const projectsArr = [
   },
   {
     name: "DZA",
-    content1: "Website for Hip-Hop Artist DZA",
+    content1: "Website for DJ/Artist DZA",
     content2:
       "Simple is best, so let the work of this talented artist speak for itself. 3D-Enviroment to underline his aesthetics.",
     github: "https://github.com/philkoerber/dza",
     home: "https://dza-ten.vercel.app/",
     techs: [, "nextJS", "react", "react-force-graph", "tailwind"],
     file: dza,
+  },
+  {
+    name: "LyraVerseAI",
+    content1: "A web app that lets you create, store and edit Lyrics and Poems",
+    content2:
+      "Utilizing different AI-APIs, this app provides interactive and fun ways to create some lyrics. Let the AI create your next line, or lean back and listen to your peotry. Everything is stored in a database, so access it from anywhere.",
+    github: "https://github.com/philkoerber/LyraVerseAI",
+    home: "https://lyraverse-ai.vercel.app/",
+    techs: ["nextJS", "FlowiseAI", "tailwind", "supabase"],
+    file: lyraverse,
   },
   {
     name: "Opening Explorer",
