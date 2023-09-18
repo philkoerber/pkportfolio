@@ -29,12 +29,12 @@ function NavBar(props) {
           className={styles}>
           <motion.h1>PROJECTS</motion.h1>
         </motion.div>
-        <motion.div
+        {/* <motion.div
           {...motionAnimation}
           onClick={handleClick}
           className={styles}>
           <motion.h1>RESUME</motion.h1>
-        </motion.div>
+        </motion.div> */}
         <motion.div
           {...motionAnimation}
           onClick={handleClick}

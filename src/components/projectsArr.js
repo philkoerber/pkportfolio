@@ -28,7 +28,7 @@ const projectsArr = [
     file: sixtysix,
   },
   {
-    name: "DZA",
+    name: "DZA Website",
     content1: "Website for DJ/Artist DZA",
     content2:
       "Simple is best, so let the work of this talented artist speak for itself. 3D-Enviroment to underline his aesthetics.",
