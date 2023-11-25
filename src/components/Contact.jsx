@@ -58,7 +58,7 @@ function Contact(props) {
         </div>
         <div className={styles} style={{ cursor: "default" }}>
           <ImLocation className="text-3xl" />
-          Kawaguchi, Saitama
+          Shinjuku, Tokyo
         </div>
         <motion.div
           className={styles}
