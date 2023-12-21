@@ -4,6 +4,7 @@ import portfolio from "./pics/portfolio.mp4";
 import puredata from "./pics/puredata.mp4";
 import docrob from "./pics/docrob.mp4";
 import dza from "./pics/dza.mp4";
+import bogen from "./pics/bogen.mp4";
 import lyraverse from "./pics/lyraverse.mp4";
 
 const projectsArr = [
@@ -36,6 +37,16 @@ const projectsArr = [
     home: "https://dza-ten.vercel.app/",
     techs: [, "nextJS", "react", "react-force-graph", "tailwind"],
     file: dza,
+  },
+  {
+    name: "Grüner Bogen",
+    content1: "Website for a German restaurant in Tokyo",
+    content2:
+      "In addition to configuring their email server, domain, and programming their website, I was delighted to design the logo and menus.",
+    github: "https://github.com/philkoerber/gruener-bogen",
+    home: "https://www.gruenerbogen.tokyo/",
+    techs: [, "nextJS", "react", "nodemailer", "tailwind"],
+    file: bogen,
   },
   {
     name: "LyraVerseAI",
